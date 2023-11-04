@@ -1,0 +1,7 @@
+# factorial of given number 
+def factorial(n):
+#single line to find factorial
+return 1 if(n==1orn==0)else n*factorial(n-1)
+#Driver code
+num=5
+print("factorial of",num,"is",factorial(num))
